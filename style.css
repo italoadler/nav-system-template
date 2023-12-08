@@ -1,6 +1,7 @@
 /* Estilos para o menu de navegação */
 #menu {
-  background-color: #333;
+  font-family: monospace;
+  background-color: antiquewhite;
   color: white;
   padding: 10px;
 }
@@ -17,11 +18,14 @@
 }
 
 #menu ul li a {
-  color: white;
+  color: blueviolet;
   text-decoration: none;
 }
+#menu li a:hover {
+  color: #ccc;
+}
 
-/* Estilos para o conteúdo */
+
 #conteudo {
   padding: 20px;
 }
